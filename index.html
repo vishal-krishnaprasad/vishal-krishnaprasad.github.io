@@ -182,6 +182,21 @@
       font-size: 0.9rem;
     }
 
+    .project-card .entry-meta {
+      color: #b6d0ff;
+      font-size: 0.92rem;
+      margin-bottom: 14px;
+    }
+
+    .project-card ul {
+      color: var(--muted);
+      padding-left: 20px;
+    }
+
+    .project-card li + li {
+      margin-top: 10px;
+    }
+
     .contact p {
       margin-bottom: 12px;
     }
@@ -217,14 +232,17 @@
 <body>
   <header>
     <h1>Vishal Krishnaprasad</h1>
-    <p class="intro">A motivated high school student with hands-on experience in Java, HTML/CSS, and game development, committed to building polished digital projects. I enjoy solving problems through clean code and creative design, while balancing technical learning with real-world application. Looking ahead, I plan to study Aerospace Engineering in college and bring a strong software perspective to future systems and simulations. At the same time, I remain passionate about computer science and eager to keep growing in both coding and engineering.</p>
+    <p class="intro">Bachelor of Science: Aerospace Engineering<br>California State University, Long Beach<br>08/2026 - Expected 05/2030</p>
   </header>
 
   <nav>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Work Experience</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#references">References</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -232,17 +250,65 @@
   <main>
     <section id="about">
       <h2>About</h2>
-      <p class="about-text">I'm a high school student who has a year of hands-on experience with Java, and basic HTML/CSS. I enjoy solving problems in ways that seem straightforward and not overly complicated. Looking ahead, I plan to study Aerospace Engineering in college and bring a strong software perspective to future systems and simulations. At the same time, I remain passionate about computer science and am still eager to continue growing in both fields.</p>
+      <p class="about-text">Systems Design Lead - Project Mithila<br>Founder &amp; Full-Stack Developer - Project ChessBridge<br>Analyst/Modeler - Structures Subsystem<br>Team Lead - Vehicle Aerodynamics</p>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Bachelor of Science: Aerospace Engineering</h3>
+          <p class="entry-meta">California State University, Long Beach<br>08/2026 - Expected 05/2030</p>
+        </article>
+        <article class="project-card">
+          <h3>Cerritos High School, Cerritos, CA</h3>
+          <ul>
+            <li>Graduated Highest Honors</li>
+            <li>Cumulative GPA: 3.96/4.00 SAT: 1560/1600</li>
+            <li>Honors: California State Seal of Biliteracy, AP Scholar with Distinction, CollegeBoard National Recognition Program: School Recognition Award</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Cerritos College</h3>
+          <p class="entry-meta">Cerritos, CA<br>05/2023 - 10/2025</p>
+          <p>GPA: 4.0</p>
+          <p>Dual Enrollment Coursework</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Accounting/Underwriting Assistant</h3>
+          <p class="entry-meta">UCA General Insurance | 2023-2025</p>
+          <ul>
+            <li>Maintained a recurring, full-time schedule (8:30 AM - 5:00 PM) during high school summer and winter breaks between 2023 and 2025.</li>
+            <li>Improved document accessibility by archiving and maintaining files within the accounting department.</li>
+            <li>Collaborated with the underwriting department to analyze insurance data and prepare greensheets for Commercial Package Policy (CPP), Business Personal Property (BPP), and umbrella accounts.</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Bibliometric Analysis Intern</h3>
+          <p class="entry-meta">ThinkNeuro, Inc | 2024-2025</p>
+          <ul>
+            <li>Co-authored a research paper examining healthcare issues related to opioid addiction and neurology.</li>
+            <li>Researched credible sources and synthesized findings to support bibliometric analysis.</li>
+            <li>Presented research findings at a virtual symposium hosted by ThinkNeuro. Collaborated with a separate team to promote educational study kits covering the respiratory and endocrine systems.</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section id="skills">
       <h2>Skills</h2>
       <ul class="skills-list">
-        <li>HTML & CSS</li>
-        <li>JavaScript / TypeScript</li>
-        <li>Responsive Web Design</li>
-        <li>Git & Version Control</li>
-        <li>React / Front-End Frameworks</li>
+        <li>SolidWorks</li>
+        <li>Structural Analysis</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>Scientific Writing</li>
       </ul>
     </section>
 
@@ -250,27 +316,59 @@
       <h2>Projects</h2>
       <div class="projects-grid">
         <article class="project-card">
-          <h3>Project Placeholder 1</h3>
-          <p>A project card for a future web application, dashboard, or design system showcase.</p>
-          <span>Coming soon</span>
+          <h3>Analyst/Modeler - Structures Subsystem</h3>
+          <p class="entry-meta">08/2026 - Present | CSULB SharkSat</p>
+          <ul>
+            <li>Contribute to the main structural design of SharkSat-1, preparing for a planned NASA launch in 2028.</li>
+            <li>Calculate stress margins and design tolerances to ensure structural integrity under simulated space environments and launch conditions through AnSys 2025.</li>
+            <li>Develop individual parts used in the satellite through SolidWorks CAD to meet structural analysis limits.</li>
+          </ul>
         </article>
         <article class="project-card">
-          <h3>Project Placeholder 2</h3>
-          <p>A placeholder entry for the next project that will feature real work and details tomorrow.</p>
-          <span>Coming soon</span>
+          <h3>Team Lead - Vehicle Aerodynamics</h3>
+          <p class="entry-meta">08/2026 - Present | CSULB Engineering 101</p>
+          <ul>
+            <li>Lead an 8 member team to develop a modular, strap-on aerodynamic kit that actively minimizes drag, optimizing fuel efficiency.</li>
+            <li>Executed phase 1 goals by conducting prior-study research, defining a general workflow process and solidifying the end goal.</li>
+            <li>Formulate testing methodologies to analyze drag coefficient reductions and measure improvements in MPG values for final review by a faculty panel.</li>
+          </ul>
         </article>
         <article class="project-card">
-          <h3>Project Placeholder 3</h3>
-          <p>A space reserved for a project summary, technologies used, and goals achieved.</p>
-          <span>Coming soon</span>
+          <h3>Systems Design Lead - Project Mithila</h3>
+          <p class="entry-meta">09/2026 - Present | Independent Design Project</p>
+          <ul>
+            <li>Initiated a reworking of a space settlement design originally developed for the National Space Society(NSS) Space Settlement Design Contest.</li>
+            <li>Developed a baseline 3D model using SolidWorks to establish general components of the settlement, involving a rotating Stanford Torus to generate artificial gravity via centrifugal force.</li>
+            <li>Coded a container website to host interactive 3D models as well as a research-based writeup outlining the design process.</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Founder &amp; Full-Stack Developer - Project ChessBridge</h3>
+          <p class="entry-meta">05/2026 - Present | Project ChessBridge</p>
+          <ul>
+            <li>Founded and expanded Project ChessBridge to include 400+ members and an active team of volunteer coaches, running and hosting numerous events to encourage chess improvement.</li>
+            <li>Programmed and deployed a responsive website using HTML/CSS/JavaScript to expand community reach, successfully gaining 50+ members for the organization.</li>
+            <li>Eliminated a $24/month company dependency through implementing a VSCode/GitHub framework and modifying DNS records to link to a custom domain.</li>
+            <li>Beta-test user interface(UI) changes based on user feedback to generate more optimized updates.</li>
+          </ul>
         </article>
       </div>
     </section>
 
+    <section id="references">
+      <h2>References</h2>
+      <article class="project-card">
+        <h3>Joshua Rocha</h3>
+        <p>Propulsion Engineer, The Boeing Company</p>
+        <p><a href="tel:+15623447161">(562) 344 7161</a> | <a href="mailto:joshua.n.rocha@boeing.com">joshua.n.rocha@boeing.com</a></p>
+      </article>
+    </section>
+
     <section id="contact">
       <h2>Contact</h2>
-      <p>If you'd like to reach out, please send an email to start a conversation about ideas, collaborations, or opportunities.</p>
-      <p><a href="mailto:hello@vishalkrishnaprasad.com">hello@vishalkrishnaprasad.com</a></p>
+      <p><a href="tel:+15626137907">+1 562 613 7907</a></p>
+      <p><a href="mailto:k.p.vishal08@gmail.com">k.p.vishal08@gmail.com</a></p>
+      <p><a href="https://vishal-krishnaprasad.github.io">vishal-krishnaprasad.github.io</a></p>
     </section>
   </main>
 
